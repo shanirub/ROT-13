@@ -16,12 +16,12 @@ function codePhrase(phrase) {
 
 function codeChar(letter) {
 
-    letterIndex = ABC.indexOf(letter)
+    let letterIndex = ABC.indexOf(letter)
     if (letterIndex == -1) {
         return letter
     }
 
-    returnIndex = index + 13
+    let returnIndex = letterIndex + 13
     if (returnIndex > ABC.length)
         returnIndex -= ABC.length
 
